@@ -19,7 +19,12 @@ namespace Dependency_Injection.Controllers
             return View();
         }
 
-        public IActionResult Show() 
+        public IActionResult Show()
+        {
+            return View();
+        }
+
+        public IActionResult Detail()
         {
             return View();
         }
